@@ -34,6 +34,9 @@ Gran parte de mis conocimientos provienen de un intenso bootcamp de 8 meses que 
 
 Combino mis habilidades técnicas con un enfoque estético, asegurándome de que cada proyecto en el que trabajo no solo funcione perfectamente, sino que también luzca increíble. Siempre estoy en busca de nuevos desafíos y oportunidades para aprender y crecer en este apasionante campo del desarrollo web.
 
+[Aquí puedes ver este trabajo](https://portfolio-renzo.vercel.app/)
+
+
 ¡Vamos a crear algo increíble juntos!
 
 ---
