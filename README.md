@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="https://res.cloudinary.com/da2aauwq2/image/upload/v1721591273/epic_body_18_bq12am.png" alt="renzo" width="200" />
 
-## Getting Started
+# Hola, soy Renzo Fantuzzi
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+¡Hola! Soy Renzo Fantuzzi, un entusiasta desarrollador web que reside en el hermoso Puerto Varas, en la Región de los Lagos, Chile. Mi pasión por la tecnología va de la mano con mi amor por el deporte: el crossfit, la pesca, el mountain bike y el snowboard son mis favoritos. Además, siempre cuento con la compañía de mi fiel perro, Pedro.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Sobre Mí
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Mi verdadera vocación es el diseño web, donde dejo volar mi creatividad y atención al detalle. Me encanta trabajar con herramientas y frameworks como:
 
-## Learn More
+- **CSS**
+- **Tailwind**
+- **NextUI**
+- **Next.js**
+- **Bootstrap**
 
-To learn more about Next.js, take a look at the following resources:
+Estas tecnologías me permiten crear interfaces impresionantes y funcionales. Además, tengo una sólida base en:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **React**
+- **MongoDB**
+- **Express**
+- **Node.js**
+- **JavaScript**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Esto me permite construir aplicaciones completas y dinámicas.
 
-## Deploy on Vercel
+## Formación
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Gran parte de mis conocimientos provienen de un intenso bootcamp de 8 meses que realicé en la Universidad del Desarrollo (UDD). Este programa me preparó para enfrentar los desafíos del mundo real y me dio la confianza para abordar proyectos complejos con eficiencia y creatividad.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Mi Enfoque
+
+Combino mis habilidades técnicas con un enfoque estético, asegurándome de que cada proyecto en el que trabajo no solo funcione perfectamente, sino que también luzca increíble. Siempre estoy en busca de nuevos desafíos y oportunidades para aprender y crecer en este apasionante campo del desarrollo web.
+
+¡Vamos a crear algo increíble juntos!
+
+---
+
+*Si tienes alguna pregunta o quieres colaborar en un proyecto, no dudes en contactarme.*
+
