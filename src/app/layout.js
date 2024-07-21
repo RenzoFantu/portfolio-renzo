@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
+import Navbar1 from "@/components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,16 +12,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en-es" suppressHydrationWarning>
-
-        <body className={inter.className}>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`flex flex-col min-h-screen bg-cover bg-no-repeat bg-[url('https://res.cloudinary.com/da2aauwq2/image/upload/v1721525358/vintage_console_ok6qqm.png')] ${inter.className}`}>
         <header>
-          <Navbar />
+          <Navbar1 />
         </header>
+        <main className="flex-grow">
           {children}
+        </main>
         <Footer />
-        </body>
-
+      </body>
     </html>
   );
 }
+
+

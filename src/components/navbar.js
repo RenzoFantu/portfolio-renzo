@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 import Image from 'next/image'
 import { Avatar } from '@nextui-org/react'
 
-const Navbar = () => {
+const Navbar1 = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="bg-gray-800">
+            <nav className="bg-transparent">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="relative flex h-16 items-center justify-between">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -44,7 +44,9 @@ const Navbar = () => {
                         </div>
                         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                             <div className="flex flex-shrink-0 items-center">
-                                <img src="/image/logo.png" className="h-16 w-auto"  alt="Your Company" />
+                                <Link href="/">
+                                <img className="w-20 rounded-full" src="https://res.cloudinary.com/da2aauwq2/image/upload/v1721521916/epic_body_13_fzxodp.png"  alt="renzo fantuzzi" />
+                                </Link>
                             </div>
                             <div className="hidden sm:ml-6 sm:block py-5 ">
                                 <div className="flex space-x-4">
@@ -70,7 +72,7 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Navbar1;
 
 
 
