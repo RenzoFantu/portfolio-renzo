@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="footer-row">
                         <div className="footer-links">
                             <div className="social-link flex flex-wrap flex-col justify-center">
-                                <h1 className=' pb-4 flex justify-center'>SIGUEME</h1>
+                                <h1 className=' pb-4 flex justify-center font-semibold text-white'>SIGUEME</h1>
                                 <div className='flex py-2 justify-center'>
 
                                     <Link href="https://github.com/RenzoFantu"><FontAwesomeIcon className="text-white" icon={faGithub} /></Link>
