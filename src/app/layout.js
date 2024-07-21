@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`flex flex-col min-h-screen bg-cover bg-fixed bg-no-repeat bg-[url('https://res.cloudinary.com/da2aauwq2/image/upload/v1721598153/epic_body_2160_x_3840_px_4_dyb1kd.png')] sm:bg-[url('https://res.cloudinary.com/da2aauwq2/image/upload/v1721525358/vintage_console_ok6qqm.png')] ${inter.className}`}>
+      <body className={`flex flex-col min-h-screen bg-cover bg-fixed bg-no-repeat bg-[url('https://res.cloudinary.com/da2aauwq2/image/upload/v1721525358/vintage_console_ok6qqm.png')] ${inter.className}`}>
         <header>
           <Navbar1 />
         </header>
