@@ -17,8 +17,8 @@ const Navbar1 = () => {
     };
 
     return (
-        <div>
-            <nav className="bg-transparent">
+        <div >
+            <nav className="bg-transparent ">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="relative flex h-16 items-center justify-between">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -45,15 +45,15 @@ const Navbar1 = () => {
                         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                             <div className="flex flex-shrink-0 items-center">
                                 <Link href="/">
-                                <img className="w-20 rounded-full" src="https://res.cloudinary.com/da2aauwq2/image/upload/v1721521916/epic_body_13_fzxodp.png"  alt="renzo fantuzzi" />
+                                <img className="w-20 rounded-full" src="https://res.cloudinary.com/da2aauwq2/image/upload/v1721538665/51_mthuxm.png"  alt="renzo fantuzzi" />
                                 </Link>
                             </div>
                             <div className="hidden sm:ml-6 sm:block py-5 ">
                                 <div className="flex space-x-4">
-                                    <a href="/" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page" onClick={closeMenu}>Dashboard</a>
-                                    <a href="/about" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={closeMenu}>About</a>
-                                    <a href="/catalogo" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={closeMenu}>Projects</a>
-                                    <a href="/contacto" className="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={closeMenu}>Calendar</a>
+                                    <a href="/" className="rounded-md px-3 py-2  font-bold text-gray-300 hover:bg-danger hover:text-white" onClick={closeMenu}>Inicio</a>
+                                    <a href="/about" className="rounded-md px-3 py-2  font-bold text-gray-300 hover:bg-danger hover:text-white" onClick={closeMenu}>Sobre mí</a>
+                                    <a href="/proyects" className="rounded-md px-3 py-2  font-bold text-gray-300 hover:bg-danger hover:text-white" onClick={closeMenu}>Proyectos</a>
+                                    <a href="/contacto" className="block rounded-md bg-danger hover:bg-secondary px-3 py-2 text-base font-bold text-white" aria-current="page" onClick={closeMenu}>Hablemos?</a>
                                 </div>
                             </div>
                         </div>
@@ -61,7 +61,7 @@ const Navbar1 = () => {
                 </div>
                 <div className={`sm:hidden ${isMenuOpen ? 'block' : 'hidden'}`} id="mobile-menu">
                     <div className="space-y-1 px-2 pb-3 pt-2">
-                        <a href="/" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page" onClick={closeMenu}>Dashboard</a>
+                        <a href="/contacto" className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white" aria-current="page" onClick={closeMenu}>Hablemos?</a>
                         <a href="/about" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={closeMenu}>About</a>
                         <a href="/catalogo" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={closeMenu}>Projects</a>
                         <a href="/contacto" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onClick={closeMenu}>Calendar</a>
