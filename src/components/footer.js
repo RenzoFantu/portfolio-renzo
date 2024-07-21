@@ -14,25 +14,27 @@ const Footer = () => {
                                 <h1 className=' pb-4 flex justify-center font-semibold text-white'>SIGUEME</h1>
                                 <div className='flex py-2 justify-center'>
 
-                                    <Link href="https://github.com/RenzoFantu"><FontAwesomeIcon className="text-white" icon={faGithub} /></Link>
-                                    <Link href="#"><FontAwesomeIcon className="text-white" icon={faLinkedinIn} /></Link>
+                                    <Link href="https://github.com/RenzoFantu"><FontAwesomeIcon className="text-white hover:text-secondary" icon={faGithub} /></Link>
+                                    <Link href="https://www.linkedin.com/in/renzo-fantuzzi-silva-0ab81557/"><FontAwesomeIcon className="text-white hover:text-secondary" icon={faLinkedinIn} /></Link>
                                 </div>
 
                             </div>
                         </div>
 
                         <div className="footer-links">
-                            <h4>NOSOTROS</h4>
+                            <h4>About</h4>
                             <ul>
-                                <li><Link href='#'>Nosotros</Link></li>
-                                <li><Link href='#'>Nuestros Productos</Link></li>
+                                <li><Link href='/'>Ir al inicio</Link></li>
+                                <li><Link href='/about'>Sobre mí</Link></li>
+                                <li><Link href='/proyects'>Proyectos</Link></li>
                             </ul>
                         </div>
 
                         <div className="footer-links">
-                            <h4>ÚNETE AL CLUB</h4>
+                            <h4>Contáctame</h4>
                             <ul>
-                                <li><Link href='#'></Link></li>
+                                <li><Link href='/contacto'>Dejame unmensaje</Link></li>
+                                <li><Link href='/contacto'>Mail: rfantuzzi@gmail.com</Link></li>
                             </ul>
                         </div>
                     </div>

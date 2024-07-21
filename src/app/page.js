@@ -23,7 +23,7 @@ const Page = () => {
                 Renzo Fantuzzi
               </h2>
             </div>
-            <h1 className="mt-2 text-2xl sm:text-3xl font-bold leading-10 text-white">Frontend Developer</h1>
+            <h1 className="mt-2 text-2xl sm:text-3xl font-bold leading-10 text-white">Web Developer</h1>
           </div>
         </div>
       </div>
