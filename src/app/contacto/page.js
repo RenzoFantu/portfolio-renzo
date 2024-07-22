@@ -46,7 +46,7 @@ const Page = () => {
                         />
                     </div>
                     <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-red-50">
-                        Sign in to your account
+                        Envíame un mensaje
                     </h2>
                 </div>
 
